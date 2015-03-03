@@ -1,0 +1,143 @@
+.navigation{
+  /* critical sizing and position styles */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  
+    /* non-critical appearance styles */
+  list-style: none;
+  overflow-y: hidden;
+  display: block;
+  background-image: url("../img/img1/top_background_sp_only.png");
+  background-size: 415px 429px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 100px 20px;
+}
+
+.orangecss{
+  position: fixed;
+  top: 435px;
+  height: 100%;
+  width: 100%;
+  background-color: #DF4514;
+  z-index: -1;
+  box-shadow: 0px -5px 5px #888888;
+}
+
+/* Navigation Menu - List items */
+
+.navigation ul{
+  width: 300px;
+  background-color: black;
+  height: 100%;
+  margin: 0 0 0 auto;
+}
+
+.navigation li{
+  width: 300px;
+  transition: color 0.2s, background 0.5s;
+}
+
+.navigation .menu-header{
+  height: 160px;
+  padding: 30px auto 30px auto;
+  background-image: url("../img/img1/menu_rogo.png");
+  background-size: 146px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+
+}
+
+.navigation .menu-links{
+  /* non-critical appearance styles */
+  display: block;
+  padding: 5px 0 5px 0;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.navigation .menu-copyright{
+  /* non-critical appearance styles */
+  display: block;
+  padding: 5px 0 5px 0;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
+.navigation .last-item{
+  padding-bottom: 10px; 
+  position: absolute;
+  bottom: 0;
+}
+/* Site Wrapper - Everything that isn't navigation */
+.site-wrap {
+  /* Critical position and size styles */
+  min-height: 100%;
+  min-width: 100%;
+  background-color: white; /* Needs a background or else the nav will show through */
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  right: 0;
+  z-index: 1;
+}
+
+/* Nav Trigger */
+.nav-trigger {
+  /* critical styles - hide the checkbox input */
+  right: 0px;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+  /* critical positioning styles */
+  position: fixed;
+  right: 0px; top: 10%;
+  z-index: 2;
+  
+  /* non-critical apperance styles */
+  height: 40px;
+  width: 114px;
+  cursor: pointer;
+  background: url("../img/img1/button_menu.png") no-repeat center center;
+  background-size: contain;
+}
+
+/* Make the Magic Happen */
+.nav-trigger + label, .site-wrap {
+  transition: right 0.2s;
+}
+
+.nav-trigger:checked + label {
+  background: url("../img/img1/button_menu.png") no-repeat center center;
+  right: 300px;
+}
+
+.nav-trigger:checked + .jumptobar {
+  right: 300px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+  right: 100%;
+  /*box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);*/
+}
+
+
+
+body {
+  /* Without this, the body has excess horizontal scroll when the menu is open */
+  overflow-x: hidden;
+}
+
+
