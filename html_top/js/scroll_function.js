@@ -32,15 +32,23 @@ function scrollingto(num){
 	//window.scrollTo(0, num);
 }
 
+var scrollTimeOutflag = true;
 $(this).bind('mousewheel', function (e) {
 	var divNum = findCurrentDiv();
 	if (e.originalEvent.wheelDelta < 0) {
 		// scroll down
-		scrollingto(divArr[parseInt(divNum)+1]);
-		
+		if(scrollTimeOutflag){
+			scrollingto(divArr[parseInt(divNum)+1]);
+			scrollTimeOutflag = false;
+			setTimeout(function(){ scrollTimeOutflag = true; }, 500);
+		}
 	} else {
 		// scroll up
-		scrollingto(divArr[parseInt(divNum)-1]);
+		if(scrollTimeOutflag){
+			scrollingto(divArr[parseInt(divNum)-1]);
+			scrollTimeOutflag = false;
+			setTimeout(function(){ scrollTimeOutflag = true; }, 500);
+		}
 		
 	}
  	return false;
@@ -52,11 +60,15 @@ $(".scroll-button").click(function(){
 	nextPage(divNum);
 });
 
+
+
+/* Jump Bar*/
+//change active class jumpbar
 function changetoActive(elem){
 	//console.log(elem);
 	elem.css("background-color", "red");
 	$(".jumptobar").find("li").not(elem).each(function(){
-		console.log("elem: "+ $(this));
+		//console.log("elem: "+ $(this));
 		changetoNotActive($(this));
 	});
 	return false;
@@ -66,6 +78,7 @@ function changetoNotActive(elem){
 	elem.css("background-color", "green");
 }
 
+//appear disappear jumpbar
 $("label").click(function(){
 	//console.log("checkboxed checked: "+$("#nav-trigger").prop("checked"));
 	if($("#nav-trigger").prop("checked")){

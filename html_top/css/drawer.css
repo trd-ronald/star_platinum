@@ -30,6 +30,19 @@
   box-shadow: 0px -5px 5px #888888;
 }
 
+.contact{
+  position: fixed;
+  top: 300px;
+  left: 530px;
+  color: #DF4514;
+}
+
+.mapIcon{
+  position: fixed;
+  top: 225px;
+  left: 800px;
+}
+
 /* Navigation Menu - List items */
 
 .navigation ul{
