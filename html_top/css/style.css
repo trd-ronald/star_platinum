@@ -89,3 +89,73 @@ Modules - reusable parts of our design
 .jumptobar .notactive{
   background-color: green;
 }
+
+.cd-content{
+	background-color: transparent;
+	width: 80%;
+	height: 70%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin: 0 auto;
+}
+
+.cd-content-title{
+	height: 10%;
+	text-align: center;
+	background-color: white;
+	display: block;
+}
+
+.cd-rss-field{
+	width: 700px;
+	height: 250px;
+	background-color: rgba(255,255,255,0.5);
+	color: #DF4514;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.cd-rss-field img{
+	padding: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cd-rss-field span{
+	font-size: 20px;
+	display: inline-block;
+}
+
+.cd-rss-field-item{
+	display: block;
+	width: 700px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.cd-rss-field-item-date{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.cd-rss-field-item-feed{
+	display: inline-block;
+	width: 570px;
+	height: 30px;
+	vertical-align: top;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-style: Roboto;
+}
