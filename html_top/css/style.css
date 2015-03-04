@@ -145,7 +145,7 @@ Modules - reusable parts of our design
 
 .cd-content{
 	background-color: transparent;
-	width: 80%;
+	width: 100%;
 	height: 70%;
 	position: relative;
 	top: 50%;
@@ -156,11 +156,35 @@ Modules - reusable parts of our design
 }
 
 .cd-content-title{
-	height: 10%;
+	height: 44px;
+	min-width: 385px;
+	max-width: 528px;
+	margin: 0 auto;
+	margin-bottom: 10px;
 	text-align: center;
-	background-color: white;
+	/*background-color: rgba(255,255,255,0.5);*/
 	display: block;
 }
+.cd-notice{
+	height: 400px;
+	width: 100%;
+	padding-left: 20vh;
+	padding-right: 20vh;
+	display: block;
+	text-align: left;
+	vertical-align: bottom;
+	background-image: url("../img/img1/menu_rogo.png");
+	background-size: 292px 120px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.cd-notice-jp-text{
+	display: block;
+	height: 400px;
+	width: 400px;
+	background-color: green;
+}
+
 
 .cd-rss-field-holder{
 	height: 250px;
@@ -216,4 +240,14 @@ Modules - reusable parts of our design
 	overflow: hidden;
 	text-overflow: ellipsis;
 	font-style: Roboto;
+}
+
+.cd-black-holder{
+	display: block;
+	height: 400px;
+	width: 100%;
+	padding-left: 20vh;
+	padding-right: 20vh;
+	background-color: rgba(0,0,0,0.5);
+	position: relative;
 }

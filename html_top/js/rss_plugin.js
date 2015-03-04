@@ -14,7 +14,7 @@
 		
 		elem.append(title);
 		elem.append(content);
-		console.log(elem);
+		//console.log(elem);
 		$(".cd-rss-field").append(elem);		
 	};
 
