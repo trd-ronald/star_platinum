@@ -38,32 +38,40 @@
 			<img src="img/img1/icon_map.png" alt="マップ">
 		</a>
 	</p>
-	<div class=" orangecss"></div>
+	<div class="orangecss"></div>
 	</div>
 	<input type="checkbox" id="nav-trigger" class="nav-trigger" />
 	<label for="nav-trigger"></label>
-			<div class="jumptobar">
-				<ul>
-					<li onclick="scrollingto(divArr[0])" class="active">1</li>
-					<li onclick="scrollingto(divArr[1])">2</li>
-					<li onclick="scrollingto(divArr[2])">3</li>
-					<li onclick="scrollingto(divArr[3])">4</li>
-					<li onclick="scrollingto(divArr[4])">5</li>
-					<li onclick="scrollingto(divArr[5])">6</li>
-					<li onclick="scrollingto(divArr[6])">7</li>
-				</ul>
-			</div> 
+		<div class="jumptobar">
+			<ul>
+				<li onclick="scrollingto(divArr[0])" class="active">1</li>
+				<li onclick="scrollingto(divArr[1])">2</li>
+				<li onclick="scrollingto(divArr[2])">3</li>
+				<li onclick="scrollingto(divArr[3])">4</li>
+				<li onclick="scrollingto(divArr[4])">5</li>
+				<li onclick="scrollingto(divArr[5])">6</li>
+				<li onclick="scrollingto(divArr[6])">7</li>
+			</ul>
+		</div> 
+
 	<div class="site-wrap">
-	    <!-- insert the rest of your page markup here -->
-		<div class="cd-o-top"></div>
-		<div class="cd-o-left"></div>
-		<div class="cd-o-right"></div>
-		<div class="cd-o-bottom"></div>
+		<div class="theborders">
+			<div class="cd-white-mask z-white"></div>
+			<div class="cd-o-top z-orange"></div>
+			<div class="cd-o-left z-orange"></div>
+			<div class="cd-o-right z-orange"></div>
+			<div class="cd-o-bottom z-orange"></div>
+			<div class="cd-b-top z-black"></div>
+			<div class="cd-b-left z-black"></div>
+			<div class="cd-b-right z-black"></div>
+			<div class="cd-b-bottom z-black"></div>
+		</div>
+
 		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg1.jpg)">
-			<div class="cd-notice">
+			<div class="cd-notice z-content">
 				<div class="cd-notice-jp-text"></div>
 			</div>
-			<div class="cd-rss-field-holder">
+			<div class="cd-rss-field-holder z-content">
 				<div class="cd-rss-field">
 					<img src="img/img1/information.png" alt="info" />
 					<span>お知らせ</span>
@@ -86,48 +94,148 @@
 			</div>
 		</div>
 		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg2.jpg)">
-			<div class="cd-content">
+			<div class="cd-content z-content">
 				<div class="cd-content-title">
-					<img src="img//img1/white_title_web.png" alt="web" />
+					<img src="img/img1/title_web.png" alt="web" />
 				</div>
 				<div class="cd-black-holder"></div>
 			</div>
 		</div>
 		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg3.jpg)">
-			<div class="cd-content">
+			<div class="cd-content z-content">
 				<div class="cd-content-title">
-					<img src="img//img1/white_title_graphic.png" alt="graphic" />
+					<img src="img/img1/title_graphic.png" alt="graphic" />
 				</div>
 				<div class="cd-black-holder"></div>
 			</div>
 		</div>
 		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg4.jpg)">
-			<div class="cd-content">
+			<div class="cd-content z-content">
 				<div class="cd-content-title">
-					<img src="img//img1/white_title_education.png" alt="education" />
+					<img src="img/img1/title_education.png" alt="education" />
 				</div>
-				<div class="cd-black-holder"></div>
+				<div class="cd-black-holder">
+					<div class="cd-education-sentences">
+						<p>
+							■日建学院　粕屋校<br />
+							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+						</p>
+						<p>
+							<br />■キッズプログラミング教室<br />
+							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+						</p>
+						<p>
+							<br />■職業訓練講師<br />
+							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+						</p>
+					</div>
+					<div class="cd-education-links">
+						<img src="img/img1/banner_nikken_1.png" alt="nikken1" />
+						<img src="img/img1/banner_kids_programming.png" alt="kids programming" />
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg5.jpg)">
-			<div class="cd-content">
+			<div class="cd-content z-content">
 				<div class="cd-content-title">
-					<img src="img//img1/white_title_event.png" alt="event" />
+					<img src="img/img1/title_event.png" alt="event" />
 				</div>
-				<div class="cd-black-holder"></div>
+				<div class="cd-black-holder">
+					<p class="p-center">
+						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+					</p>
+					<div class="tac">
+						<div class="cd-event-block">
+							<img src="img/img1/events/event_christmas_market2014.png" alt=event_christmas_market2014 />
+							<p>クリスマスマーケット in 光の街･博多 2014</p>
+						</div>
+						<div class="cd-event-block">
+							<img src="img/img1/events/event_sunset2014.png" alt="event_sunset2014" />
+							<p>SunSetLive2014</p>
+						</div>
+						<div class="cd-event-block">
+							<img src="img/img1/events/event_christmas_market2013.png" alt="event_christmas_market2013" />
+							<p>クリスマスマーケット in 光の街･博多 2013</p>
+						</div>
+						<div class="cd-event-block">
+							<img src="img/img1/events/event_ippo2013.png" alt="event_ippo2013" />
+							<p>iPPO fes.2013＠虹の松原ホテル内ビーチ（唐津市)</p>
+						</div>
+					</div>
+				</div>
+				<div class="cd-about-us-extra">
+					<img src="img/img1/banner_christmas_market.png" alt="banner_christmas_market"/>
+				</div>
 			</div>
 		</div>
 		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg6.jpg)">
-			<div class="cd-content">
+			<div class="cd-content z-content">
 				<div class="cd-content-title">
-					<img src="img//img1/white_title_management.png" alt="management" />
+					<img src="img/img1/title_management.png" alt="management" />
 				</div>
-				<div class="cd-black-holder"></div>
+				<div class="cd-black-holder">
+					<p class="p-center">
+						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+					</p>
+					<div class="cd-management">
+						<div class="cd-about-us-block">
+							<img src="img/img1/photo_zerojo.png" alt="zerojo" />
+						</div>
+						<div class="cd-about-us-block">
+							<p class="title">零式☆下剋嬢</p>
+							<p><br />「零式☆下剋嬢」は福岡で活躍する戦闘系アイドル!戦う人を応援する！をコンセプトに県内外で活動しています</p>
+							<p><br />公式サイト：http://type-zero.jp/</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg7.jpg)">
-			<div class="cd-content">
-
+			<div class="cd-notice z-content">
+			</div>
+			<div class="cd-about-us z-content">
+				<div class="cd-about-us-block">
+					<p class="title">お問い合わせ</p>
+					<p>〒810-0041</p>
+					<p>福岡県福岡市中央区大名2丁目1-43-507</p>
+					<p>T: 092-406-3290       F: 092-406-3291</p>
+					<p>E: info_XXXXXXXXXXX</p>
+				</div>
+				<div class="cd-about-us-block">
+					<p class="title">サイトメニュー</p>
+					<p>>会社概要</p>
+					<p>>制作実績</p>
+					<p>>お問い合わせ</p>
+					
+				</div>
+				<div class="cd-about-us-block">
+					<p class="title">サービス</p>
+					<p>>WEB関連</p>
+					<p>>広告／印刷</p>
+					<p>>教育／育成</p>
+					<p>>イベント企画</p>
+					<p>>マネージメント</p>
+				</div>
+				<div class="cd-about-us-block">
+					<p class="title">MORE INFO</p>
+					<img src="img/img1/banner_nekukoi.png" alt="nekukoi" />
+					<img src="img/img1/banner_the_life.png" alt="the life" />
+				</div>
+			</div>
+			<div class="cd-about-us-extra z-content">
+				<img src="img/img1/banner_hakobune.png" alt="hakobune" />
+				<img src="img/img1/banner_nikken_2.png" alt="nikken2" />
 			</div>
 		</div>
 

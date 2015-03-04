@@ -59,7 +59,6 @@ Modules - reusable parts of our design
   position: fixed;
   height: 20vh;
   width: 110vw;
-  z-index: 5;
 }
 
 .cd-o-bottom{
@@ -72,7 +71,6 @@ Modules - reusable parts of our design
   position: fixed;
   height: 20vh;
   width: 110vw;
-  z-index: 5;
 }
 
 .cd-o-left{
@@ -85,7 +83,6 @@ Modules - reusable parts of our design
   position: fixed;
   height: 110vh;
   width: 20vh;
-  z-index: 5;
 }
 
 .cd-o-right{
@@ -98,23 +95,65 @@ Modules - reusable parts of our design
   position: fixed;
   height: 110vh;
   width: 20vh;
-  z-index: 5;
 }
 
+/* black shades */
+.cd-b-top{
+  top: 0px;
+  background-color: rgba(0,0,0,0.3);
+  opacity: 0.8;
+  position: fixed;
+  height: 15vh;
+  width: 110vw;
+}
+
+.cd-b-bottom{
+  bottom: 0px;
+  background-color: rgba(0,0,0,0.3);
+  position: fixed;
+  height: 15vh;
+  width: 110vw;
+}
+
+.cd-b-left{
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.3);
+  position: fixed;
+  height: 110vh;
+  width: 15vh;
+}
+
+.cd-b-right{
+  top: 0px;
+  right: 0px;
+  background-color: rgba(0,0,0,0.3);
+  position: fixed;
+  height: 110vh;
+  width: 15vh;
+}
+
+.cd-white-mask{
+	top: 0px;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(255,255,255,0.5);
+	opacity: 0.8;
+	position: fixed;
+}
 
 /* content css */
 
 .cd-fixed-bg {
-  display: block;
-  height: 100vh;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
+	display: block;
+	height: 100vh;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .jumptobar{
-  z-index: 2;
   height: 170px;
   width: 20px;
   position: fixed;
@@ -122,6 +161,7 @@ Modules - reusable parts of our design
   right: 0%;
   transform: translate(0, -50%);
   transition: opacity 0.2s;
+  z-index: 10;
 }
 
 .jumptobar li{
@@ -156,17 +196,22 @@ Modules - reusable parts of our design
 }
 
 .cd-content-title{
-	height: 44px;
+	height: 60px;
+	line-height: 60px;
 	min-width: 385px;
 	max-width: 528px;
 	margin: 0 auto;
-	margin-bottom: 10px;
 	text-align: center;
 	/*background-color: rgba(255,255,255,0.5);*/
 	display: block;
 }
+
+.cd-content-title img{
+	vertical-align: middle;
+}
+
 .cd-notice{
-	height: 400px;
+	height: 45%;
 	width: 100%;
 	padding-left: 20vh;
 	padding-right: 20vh;
@@ -180,7 +225,7 @@ Modules - reusable parts of our design
 }
 .cd-notice-jp-text{
 	display: block;
-	height: 400px;
+	height: 100%;
 	width: 400px;
 	background-color: green;
 }
@@ -250,4 +295,131 @@ Modules - reusable parts of our design
 	padding-right: 20vh;
 	background-color: rgba(0,0,0,0.5);
 	position: relative;
+	color: white;
+}
+
+.cd-education-sentences{
+	vertical-align: top;
+	display: inline-block;
+	width: 55%;
+	height: 100%;
+	color: white;
+	padding: 20px;
+}
+
+.cd-education-sentences p{
+	line-height: 130%;
+	letter-spacing: 0.5px;
+}
+
+.cd-education-links{
+	padding: 30px;
+	vertical-align: top;
+	display: inline-block;
+	width: 44%;
+	height: 100%;
+}
+
+.cd-event-block{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 25px 0 25px;
+}
+
+.cd-event-block p{
+	font-size: 10px;
+}
+
+.cd-about-us{
+	color: white;
+	width: 100%;
+	padding-left: 20vh;
+	padding-right: 20vh;
+	display: block;
+}
+
+p.title{
+	font-size: 18px;
+	font-weight: bold;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: grey;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+.cd-about-us-block{
+	padding: 30px;
+	display: inline-block;
+	vertical-align: top;
+	min-width: 200px;
+	max-width: 690px;
+	margin: 0 25px 0 25px;
+}
+
+.cd-about-us-block img{
+	padding: 10px 0 10px 0;
+	display: block;
+}
+
+.cd-about-us-extra{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.cd-about-us-extra img{
+	margin-right: 20px;
+}
+
+.p-center{
+	width: 60%;
+	margin: 0 auto;
+	color: white;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.cd-management{
+	width: 80%;
+	margin: 0 auto;
+	vertical-align: top:
+}
+
+.cd-management .cd-about-us-block{
+	padding: 0;
+	margin: 0;
+}
+
+.cd-management .cd-about-us-block img{
+	padding: 0;
+	margin: 0;
+}
+
+.tac{
+	text-align: center;
+}
+
+
+.z-orange{
+	z-index: 8;
+}
+
+
+.z-white{
+	z-index: 3;
+}
+
+
+.z-black{
+	z-index: 9;
+}
+
+.z-content{
+	z-index: 6;
+	position: relative;
+}
+
+.z-special{
+	z-index: 7;
 }
