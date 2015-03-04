@@ -82,10 +82,10 @@ function changetoNotActive(elem){
 $("label").click(function(){
 	//console.log("checkboxed checked: "+$("#nav-trigger").prop("checked"));
 	if($("#nav-trigger").prop("checked")){
-		$(".cd-o-top").css("opacity", "0.5");
-		$(".cd-o-bottom").css("opacity", "0.5");
-		$(".cd-o-left").css("opacity", "0.5");
-		$(".cd-o-right").css("opacity", "0.5");
+		$(".cd-o-top").css("opacity", "0.8");
+		$(".cd-o-bottom").css("opacity", "0.8");
+		$(".cd-o-left").css("opacity", "0.8");
+		$(".cd-o-right").css("opacity", "0.8");
 		$(".jumptobar").css("opacity", "1");
 	}else{
 		$(".cd-o-top").css("opacity", "0");

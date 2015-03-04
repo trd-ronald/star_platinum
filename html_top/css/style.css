@@ -51,50 +51,54 @@ Modules - reusable parts of our design
 
 /* orange borders*/
 .cd-o-top{
-  box-shadow: 0px 10px 10px #000;
+  box-shadow: 0px 5px 10px #000;
   transform: rotate(3deg);
   top: -80px;
   background-color: #DF4514;
-  opacity: 0.5;
+  opacity: 0.8;
   position: fixed;
   height: 20vh;
   width: 110vw;
+  z-index: 5;
 }
 
 .cd-o-bottom{
-  box-shadow: 0px -10px 10px #000;
+  box-shadow: 0px -5px 10px #000;
   transform: rotate(3deg);
   bottom: -80px;
   right: 0;
   background-color: #DF4514;
-  opacity: 0.5;
+  opacity: 0.8;
   position: fixed;
   height: 20vh;
   width: 110vw;
+  z-index: 5;
 }
 
 .cd-o-left{
-  box-shadow: 10px 0px 10px #000;
+  box-shadow: 5px 0px 10px #000;
   transform: rotate(5deg);
   bottom: 0px;
   left: -80px;
   background-color: #DF4514;
-  opacity: 0.5;
+  opacity: 0.8;
   position: fixed;
   height: 110vh;
   width: 20vh;
+  z-index: 5;
 }
 
 .cd-o-right{
-  box-shadow: -10px 0px 10px #000;
+  box-shadow: -5px 0px 10px #000;
   transform: rotate(5deg);
   top: 0px;
   right: -80px;
   background-color: #DF4514;
-  opacity: 0.5;
+  opacity: 0.8;
   position: fixed;
   height: 110vh;
   width: 20vh;
+  z-index: 5;
 }
 
 
@@ -158,17 +162,22 @@ Modules - reusable parts of our design
 	display: block;
 }
 
+.cd-rss-field-holder{
+	height: 250px;
+	width: 100%;
+	background-color: rgba(255,255,255,0.8);
+	position: relative;
+}
+
 .cd-rss-field{
 	width: 700px;
 	height: 250px;
-	background-color: rgba(255,255,255,0.5);
 	color: #DF4514;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	margin-bottom: 40px;
 }
 
 .cd-rss-field img{
