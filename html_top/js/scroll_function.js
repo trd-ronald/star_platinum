@@ -103,6 +103,7 @@ $("label").click(function(){
 		var timner = setInterval(function () {
 			$(".theborders").css("opacity", "1");
 			$(".jumptobar").css("opacity", "1");
+			$(".navigation").css("z-index", "0");
 			clearInterval(timner);
 		}, 100);
 	}else{
@@ -121,6 +122,7 @@ $("label").click(function(){
 		var timner = setInterval(function () {
 			$(".theborders").css("opacity", "0");
 			$(".jumptobar").css("opacity", "0");
+			$(".navigation").css("z-index", "10");
 			clearInterval(timner);
 		}, 100);
 

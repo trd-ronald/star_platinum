@@ -298,6 +298,28 @@ Modules - reusable parts of our design
 	color: white;
 }
 
+.cd-record-list-holder{
+	display: block;
+	height: 100px;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.cd-record-list-holder-block{
+	padding: 20px;
+	max-width: 60%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.cd-record-list-holder img{
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+
 .cd-education-sentences{
 	vertical-align: top;
 	display: inline-block;

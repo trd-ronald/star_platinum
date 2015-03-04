@@ -71,10 +71,14 @@
 .navigation .menu-links{
   /* non-critical appearance styles */
   display: block;
-  padding: 5px 0 5px 0;
   text-decoration: none;
   text-align: center;
   color: white;
+  width: 200px;
+  height: 25px;
+  margin: 0 auto;
+  text-align: left;
+  
 }
 
 .navigation .menu-copyright{
