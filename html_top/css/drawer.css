@@ -81,6 +81,10 @@
   
 }
 
+.nav-item-sub{
+	display: none;
+}
+
 .navigation .menu-copyright{
   /* non-critical appearance styles */
   display: block;

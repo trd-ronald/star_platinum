@@ -15,6 +15,17 @@ $(function(){
 
     /* auto-open #firstlink on page load */
     $("#firstlink").venobox().trigger('click');
+    
+    $(".nav-item").click(function(){
+    	var thisnav = $(this).find(".nav-item-sub");
+    	//console.log($(this).find(".nav-item-sub").css("display"));
+    	if(thisnav.css("display")=="none"){
+    		thisnav.css("display", "block");
+    	}else{
+    		thisnav.css("display", "none");
+    	}
+    });
+    
 });//end function
 
 window.mobilecheck = function() {
