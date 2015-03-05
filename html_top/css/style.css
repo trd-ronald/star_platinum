@@ -155,6 +155,10 @@ a {
   cursor: pointer;
 }
 
+.theborders{
+	height: 100%;
+}
+
 .active{
   background-color: gray;
 }
@@ -164,7 +168,6 @@ a {
 }
 
 .cd-content{
-	background-color: transparent;
 	width: 100%;
 	height: 70%;
 	position: relative;
@@ -278,6 +281,7 @@ a {
 }
 
 .cd-record-list-holder{
+	text-align: center;
 	display: block;
 	height: 100px;
 	position: relative;
@@ -287,16 +291,15 @@ a {
 }
 
 .cd-record-list-holder-block{
-	padding: 20px;
-	max-width: 60%;
+	text-align: left;
+	padding: 20px 10px 20px 10px;
+	max-width: 50%;
 	vertical-align: top;
 	display: inline-block;
 }
 
 .cd-record-list-holder img{
-	position: absolute;
-	right: 0;
-	top: 30px;
+	display: inline-block;
 }
 
 .cd-education-sentences{
@@ -324,7 +327,7 @@ a {
 .cd-event-block{
 	display: inline-block;
 	vertical-align: top;
-	margin: 0 25px 0 25px;
+	margin: 0 10px 0 10px;
 }
 
 .cd-event-block p{
@@ -332,8 +335,9 @@ a {
 }
 
 .cd-about-us{
+	text-align: center;
 	color: white;
-	width: 80%;
+	max-width: 80%;
 	margin: 0 auto;
 	display: block;
 }
@@ -349,12 +353,12 @@ p.title{
 }
 
 .cd-about-us-block{
-	padding: 30px;
+	text-align: left;
 	display: inline-block;
 	vertical-align: top;
 	min-width: 200px;
-	max-width: 690px;
-	margin: 0 25px 0 25px;
+	max-width: 500px;
+	margin: 0 10px 0 10px;
 }
 
 .cd-about-us-block img{
@@ -383,7 +387,8 @@ p.title{
 .cd-management{
 	width: 80%;
 	margin: 0 auto;
-	vertical-align: top:
+	vertical-align: top;
+	text-align: center;
 }
 
 .cd-management .cd-about-us-block{
@@ -397,6 +402,7 @@ p.title{
 }
 
 .tac{
+	margin-top: 20px;
 	text-align: center;
 }
 

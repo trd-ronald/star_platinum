@@ -66,7 +66,7 @@
 							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
 							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
 						</p>
-						<img src="img/img1/botton_list.png" alt="botton_list" />
+						<img class="cd-record-list-holder-block" src="img/img1/botton_list.png" alt="botton_list" />
 					</div>
 					<div class="tac">
 						<div class="cd-event-block">
@@ -112,7 +112,10 @@
 							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
 							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
 						</p>
-						<img src="img/img1/botton_list.png" alt="botton_list" />
+						<p class="cd-record-list-holder-block">
+							
+						</p>
+						<img class="cd-record-list-holder-block" src="img/img1/botton_list.png" alt="botton_list" />
 					</div>
 					<div class="tac">
 						<div class="cd-event-block">
