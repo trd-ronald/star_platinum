@@ -4,7 +4,7 @@ $(function(){
 	$(".jumpto").each(function(){
 		divArr.push($(this).offset().top);
 	})
-	divArr.push($(document).height());
+	//divArr.push($(document).height());
 	//console.log(divArr);
     $('.venobox').venobox(); 
 

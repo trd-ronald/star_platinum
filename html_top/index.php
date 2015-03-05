@@ -21,6 +21,7 @@
 			<div class="cd-b-left z-black"></div>
 			<div class="cd-b-right z-black"></div>
 			<div class="cd-b-bottom z-black"></div>
+			<div class="cd-fixed-copyright z-black">© STAR PLATINUM INC. ALL RIGHTS RESERVED</div>
 		</div>
 
 		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg1.jpg)">

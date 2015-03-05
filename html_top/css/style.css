@@ -124,6 +124,15 @@ a {
 	position: fixed;
 }
 
+.cd-fixed-copyright{
+	position: fixed;
+	bottom: 0px;
+	height: 20px;
+	width: 100%;
+	text-align: center;
+	color: black;
+}
+
 /* content css */
 
 .cd-fixed-bg {
