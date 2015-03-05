@@ -39,7 +39,7 @@ a {
   background-color: #DF4514;
   opacity: 0.8;
   position: fixed;
-  height: 150px;
+  height: 130px;
   width: 110%;
 }
 
@@ -51,7 +51,7 @@ a {
   background-color: #DF4514;
   opacity: 0.8;
   position: fixed;
-  height: 150px;
+  height: 130px;
   width: 110%;
 }
 
@@ -64,7 +64,7 @@ a {
   opacity: 0.8;
   position: fixed;
   height: 110%;
-  width: 150px;
+  width: 130px;
 }
 
 .cd-o-right{
@@ -76,7 +76,7 @@ a {
   opacity: 0.8;
   position: fixed;
   height: 110%;
-  width: 150px;
+  width: 130px;
 }
 
 /* black shades */
@@ -85,7 +85,7 @@ a {
   background-color: rgba(0,0,0,0.3);
   opacity: 0.8;
   position: fixed;
-  height: 120px;
+  height: 100px;
   width: 110%;
 }
 
@@ -93,7 +93,7 @@ a {
   bottom: 0px;
   background-color: rgba(0,0,0,0.3);
   position: fixed;
-  height: 120px;
+  height: 100px;
   width: 110%;
 }
 
@@ -103,7 +103,7 @@ a {
   background-color: rgba(0,0,0,0.3);
   position: fixed;
   height: 110%;
-  width: 120px;
+  width: 100px;
 }
 
 .cd-b-right{
@@ -112,7 +112,7 @@ a {
   background-color: rgba(0,0,0,0.3);
   position: fixed;
   height: 110%;
-  width: 120px;
+  width: 100px;
 }
 
 .cd-white-mask{

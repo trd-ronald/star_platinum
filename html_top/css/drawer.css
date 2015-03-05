@@ -13,6 +13,7 @@
   list-style: none;
   overflow-y: hidden;
   display: block;
+  background-color: white;
   background-image: url("../img/img1/top_background_sp_only.png");
   background-size: 415px 429px;
   background-attachment: fixed;
