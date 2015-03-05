@@ -8,7 +8,18 @@ window.divArr=[];
 $(".jumpto").each(function(){
 	divArr.push($(this).offset().top);
 })
-//console.log(divArr);
+divArr.push($(document).height());
+console.log(divArr);
+
+function currentDiv(st){
+	for(var x=0; x<divArr.length; x++){
+		if((divArr[x]<st) && (st<divArr[x+1])){
+			console.log("div"+x+"\tscroll pos: "+divArr[x]);
+			return x;
+			break;
+		}
+	}
+}
 
 function findCurrentDiv(){
 	//console.log(parseInt($(window).scrollTop()+1)+" / "+$(window).height());
@@ -21,6 +32,7 @@ function findCurrentDiv(){
 
 
 function scrollingto(num){
+	console.log("scrolling to: "+num);
 	$(".nav-trigger").css("top", num+"px");
 	$('html,body').stop().animate({
 		scrollTop: num
@@ -28,41 +40,44 @@ function scrollingto(num){
 		//when complete
 		changetoActive($(".jumptobar").find("li").eq(findCurrentDiv()));
 	});
-	
 	//window.scrollTo(0, num);
 }
 
 var scrollTimeOutflag = true;
-$(this).bind('mousewheel', function (e) {
+window.jumpFlag = false;
+window.lastScrollTop = 0;
+$(window).scroll(function(e){
+	console.log("window listener\n"+e);
+	var st = $(this).scrollTop();
 	var divNum = findCurrentDiv();
-	if (e.originalEvent.wheelDelta < 0) {
-		// scroll down
-		if(scrollTimeOutflag){
-			scrollingto(divArr[parseInt(divNum)+1]);
+	if (st > lastScrollTop){
+		// downscroll code
+		if(scrollTimeOutflag && !jumpFlag){
+			//console.log("down: "+st);
+			scrollingto(divArr[currentDiv(st)+1]);
 			scrollTimeOutflag = false;
 			setTimeout(function(){ scrollTimeOutflag = true; }, 500);
 		}
 	} else {
-		// scroll up
-		if(scrollTimeOutflag){
-			scrollingto(divArr[parseInt(divNum)-1]);
+		// upscroll code
+		if(scrollTimeOutflag && !jumpFlag){
+			//console.log("up: "+st);
+			scrollingto(divArr[currentDiv(st)]);
 			scrollTimeOutflag = false;
 			setTimeout(function(){ scrollTimeOutflag = true; }, 500);
 		}
-		
 	}
- 	return false;
- });
-
-//scroll button not used
-$(".scroll-button").click(function(){
-	var divNum = findCurrentDiv();
-	nextPage(divNum);
+	lastScrollTop = st;
 });
 
-
-
 /* Jump Bar*/
+
+function jumpto(num){
+	jumpFlag=true;
+	scrollingto(num);
+	setTimeout(function(){ jumpFlag = false; }, 500);
+}
+
 //change active class jumpbar
 function changetoActive(elem){
 	//console.log(elem);
