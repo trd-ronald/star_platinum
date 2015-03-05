@@ -148,7 +148,6 @@ a {
 .jumptobar li{
   padding: 3px;
   text-align: center;
-  background-color: green;
   margin-bottom: 2px;
   display: block;
   font-size: 16px;
@@ -156,12 +155,12 @@ a {
   cursor: pointer;
 }
 
-.jumptobar .active{
-  background-color: red;
+.active{
+  background-color: gray;
 }
 
-.jumptobar .notactive{
-  background-color: green;
+.notactive{
+  background-color: black;
 }
 
 .cd-content{

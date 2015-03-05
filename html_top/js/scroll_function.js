@@ -1,3 +1,8 @@
+var jumpBarActiveColor = "gray";
+var jumpBarNotActiveColor = "black";
+
+
+
 function currentDiv(st){
 	for(var x=0; x<divArr.length; x++){
 		if((divArr[x]<st) && (st<divArr[x+1])){
@@ -68,7 +73,7 @@ function jumpto(num){
 //change active class jumpbar
 function changetoActive(elem){
 	//console.log(elem);
-	elem.css("background-color", "red");
+	elem.css("background-color", jumpBarActiveColor);
 	$(".jumptobar").find("li").not(elem).each(function(){
 		//console.log("elem: "+ $(this));
 		changetoNotActive($(this));
@@ -77,7 +82,7 @@ function changetoActive(elem){
 }
 
 function changetoNotActive(elem){
-	elem.css("background-color", "green");
+	elem.css("background-color", jumpBarNotActiveColor);
 }
 /*
 window.tempOpacity = {
