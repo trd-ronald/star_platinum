@@ -1,20 +1,7 @@
-/* scroll handler 
-Not Used
-Description: Listens to scroll up or down from mouse wheel and jumps from page to page. Pages are labeled jumpDivX
-Requirement: custom_animation.js
-Notes: Needs better scroll listener
-*/
-window.divArr=[];
-$(".jumpto").each(function(){
-	divArr.push($(this).offset().top);
-})
-divArr.push($(document).height());
-console.log(divArr);
-
 function currentDiv(st){
 	for(var x=0; x<divArr.length; x++){
 		if((divArr[x]<st) && (st<divArr[x+1])){
-			console.log("div"+x+"\tscroll pos: "+divArr[x]);
+			//console.log("div"+x+"\tscroll pos: "+divArr[x]);
 			return x;
 			break;
 		}
@@ -32,7 +19,7 @@ function findCurrentDiv(){
 
 
 function scrollingto(num){
-	console.log("scrolling to: "+num);
+	//console.log("scrolling to: "+num);
 	$(".nav-trigger").css("top", num+"px");
 	$('html,body').stop().animate({
 		scrollTop: num
@@ -47,7 +34,7 @@ var scrollTimeOutflag = true;
 window.jumpFlag = false;
 window.lastScrollTop = 0;
 $(window).scroll(function(e){
-	console.log("window listener\n"+e);
+	//console.log("window listener\n"+e);
 	var st = $(this).scrollTop();
 	var divNum = findCurrentDiv();
 	if (st > lastScrollTop){

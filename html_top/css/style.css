@@ -31,24 +31,6 @@ a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
-
-Modules - reusable parts of our design
-
--------------------------------- */
-.cd-container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  /*width: 90%;
-  max-width: 768px;
-  margin: 0 auto;*/
-}
-.cd-container::after {
-  /* clearfix */
-  content: '';
-  display: table;
-  clear: both;
-}
-
 /* orange borders*/
 .cd-o-top{
   box-shadow: 0px 5px 10px #000;
@@ -57,8 +39,8 @@ Modules - reusable parts of our design
   background-color: #DF4514;
   opacity: 0.8;
   position: fixed;
-  height: 20vh;
-  width: 110vw;
+  height: 150px;
+  width: 110%;
 }
 
 .cd-o-bottom{
@@ -69,8 +51,8 @@ Modules - reusable parts of our design
   background-color: #DF4514;
   opacity: 0.8;
   position: fixed;
-  height: 20vh;
-  width: 110vw;
+  height: 150px;
+  width: 110%;
 }
 
 .cd-o-left{
@@ -81,8 +63,8 @@ Modules - reusable parts of our design
   background-color: #DF4514;
   opacity: 0.8;
   position: fixed;
-  height: 110vh;
-  width: 20vh;
+  height: 110%;
+  width: 150px;
 }
 
 .cd-o-right{
@@ -93,8 +75,8 @@ Modules - reusable parts of our design
   background-color: #DF4514;
   opacity: 0.8;
   position: fixed;
-  height: 110vh;
-  width: 20vh;
+  height: 110%;
+  width: 150px;
 }
 
 /* black shades */
@@ -103,16 +85,16 @@ Modules - reusable parts of our design
   background-color: rgba(0,0,0,0.3);
   opacity: 0.8;
   position: fixed;
-  height: 15vh;
-  width: 110vw;
+  height: 120px;
+  width: 110%;
 }
 
 .cd-b-bottom{
   bottom: 0px;
   background-color: rgba(0,0,0,0.3);
   position: fixed;
-  height: 15vh;
-  width: 110vw;
+  height: 120px;
+  width: 110%;
 }
 
 .cd-b-left{
@@ -120,8 +102,8 @@ Modules - reusable parts of our design
   left: 0px;
   background-color: rgba(0,0,0,0.3);
   position: fixed;
-  height: 110vh;
-  width: 15vh;
+  height: 110%;
+  width: 120px;
 }
 
 .cd-b-right{
@@ -129,14 +111,14 @@ Modules - reusable parts of our design
   right: 0px;
   background-color: rgba(0,0,0,0.3);
   position: fixed;
-  height: 110vh;
-  width: 15vh;
+  height: 110%;
+  width: 120px;
 }
 
 .cd-white-mask{
 	top: 0px;
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
 	background-color: rgba(255,255,255,0.5);
 	opacity: 0.8;
 	position: fixed;
@@ -146,7 +128,6 @@ Modules - reusable parts of our design
 
 .cd-fixed-bg {
 	display: block;
-	height: 100vh;
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -212,9 +193,8 @@ Modules - reusable parts of our design
 
 .cd-notice{
 	height: 45%;
-	width: 100%;
-	padding-left: 20vh;
-	padding-right: 20vh;
+	width: 80%;
+	margin: 0 auto;
 	display: block;
 	text-align: left;
 	vertical-align: bottom;
@@ -291,8 +271,8 @@ Modules - reusable parts of our design
 	display: block;
 	height: 400px;
 	width: 100%;
-	padding-left: 20vh;
-	padding-right: 20vh;
+	padding-left: 10%;
+	padding-right: 10%;
 	background-color: rgba(0,0,0,0.5);
 	position: relative;
 	color: white;
@@ -354,9 +334,8 @@ Modules - reusable parts of our design
 
 .cd-about-us{
 	color: white;
-	width: 100%;
-	padding-left: 20vh;
-	padding-right: 20vh;
+	width: 80%;
+	margin: 0 auto;
 	display: block;
 }
 

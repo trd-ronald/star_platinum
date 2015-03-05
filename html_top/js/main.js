@@ -1,4 +1,11 @@
 $(function(){
+	$(".cd-fixed-bg").css("height",$(window).height()+"px");
+	window.divArr=[];
+	$(".jumpto").each(function(){
+		divArr.push($(this).offset().top);
+	})
+	divArr.push($(document).height());
+	//console.log(divArr);
     $('.venobox').venobox(); 
 
 
