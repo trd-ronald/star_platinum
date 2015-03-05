@@ -271,10 +271,10 @@ a {
 
 .cd-black-holder{
 	display: block;
-	height: 400px;
 	width: 100%;
 	padding-left: 10%;
 	padding-right: 10%;
+	padding-bottom: 20px;
 	background-color: rgba(0,0,0,0.5);
 	position: relative;
 	color: white;
