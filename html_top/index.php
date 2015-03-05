@@ -96,7 +96,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cd-about-us-extra">
+				<div class="cd-about-us-extra z-content">
 					<!-- add images here -->
 				</div>
 			</div>
@@ -141,7 +141,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cd-about-us-extra">
+				<div class="cd-about-us-extra z-content">
 					<!-- add images here -->
 				</div>
 			</div>
@@ -213,7 +213,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cd-about-us-extra">
+				<div class="cd-about-us-extra z-content">
 					<a href="http://www.christmasmarket.jp/">
 						<img src="img/img1/banner_christmas_market.png" alt="banner_christmas_market"/>
 					</a>
