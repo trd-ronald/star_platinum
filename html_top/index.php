@@ -220,7 +220,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg6.jpg)">
+		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/top_background_6_nologo.jpg)">
 			<div class="cd-content z-content">
 				<div class="cd-content-title">
 					<img src="img/img1/title_management.png" alt="management" />
@@ -244,7 +244,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg7.jpg)">
+		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/top_background_7_nologo.jpg)">
 			<div class="cd-notice z-content">
 			</div>
 			<div class="cd-about-us z-content">

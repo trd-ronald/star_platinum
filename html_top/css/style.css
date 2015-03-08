@@ -209,7 +209,7 @@ a {
 	display: block;
 	text-align: left;
 	vertical-align: bottom;
-	background-image: url("../img/img1/menu_rogo.png");
+	background-image: url("../img/img1/logo.png");
 	background-size: 292px 120px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -218,7 +218,9 @@ a {
 	display: block;
 	height: 100%;
 	width: 400px;
-	background-color: green;
+	background-image: url("../img/img1/top_text.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 
