@@ -1,6 +1,6 @@
 $(function(){
     if(  document.addEventListener  ){
-        //alert("you got IE9 or greater");
+        //console.log("You are not using IE8 or below");
     }else{
         $(".theborders").css("display","none");
         $(".cd-content-title").css("display","none");
@@ -31,9 +31,37 @@ sizingMethod='scale');
         $(".cd-fixed-bg").eq(6).css({
             "filter"    : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/img1/top_background_7.jpg',sizingMethod='scale')",
         });
-        $(".cd-content").css("top", "30%");
-        $(".cd-rss-field-holder").css("top", "65px");
+        if( parseInt( $(window).height() )>700 ){
+            $(".cd-content").css({"top": "30%"});
+            $(".cd-rss-field-holder").css({"top": "65px"});
+        }else{
+            $(".tac").css({"margin-top": "-15px"});
+            $(".cd-content").css({"top": "25%"});
+            $(".cd-rss-field-holder").css({"top": "50px"});
+            $(".cd-rss-field-item").css({
+                //"line-height":"0",
+                "margin-bottom":"5px",
+                "height":"18px"
+            });
+            $(".cd-rss-field-date").css({"height" :"18px"});
+            $(".cd-rss-field-feed").css({"height" :"18px"});
+            $(".site-wrap").find("p").css({
+                "font-size" :"10px",
+                "line-height":"1.3"
+            });
+            $(".cd-event-block").find("img").each(function(){
+                console.log(" before height: "+ $(this).css("height"));
+                var h = parseInt($(this).css("height"));
+                var w = parseInt($(this).css("width"));
+                $(this).css({
+                    "height"    :h*.75+"px",
+                    "width"     :w*.75+"px"
+                });
+                console.log("after height: "+ $(this).css("height"));
+            });
 
+            $(".p-center").css("padding-top", "50px");
+        }
     }//end if ie8
     
 

@@ -44,9 +44,9 @@
 					<div class="cd-rss-field-item">
 						<p class="cd-rss-field-item-date">2015/05/20</p><p class="cd-rss-field-item-feed">制作実績更新しましたテキストテキストテキストテキストテキストテキストテキスト…</p>
 					</div>
-					<!--div class="cd-rss-field-item">
+					<div class="cd-rss-field-item">
 						<p class="cd-rss-field-item-date">2015/01/01</p><p class="cd-rss-field-item-feed">iPPO fes.2015のご案内テキストテキストテキストテキストテキストテキストテキスト</p>
-					</div-->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -288,11 +288,13 @@
 
 	<script src="js/main.js"></script> <!-- Resource jQuery -->
 	<script src="js/scroll_function.js"></script> <!-- Resource jQuery -->
-	<script src="js/rss_plugin.js"></script> <!-- Resource jQuery -->
+	<!--
+	<script src="js/rss_plugin.js"></script>  Resource jQuery
 	<script>
 	$(function(){
 		$("body").newFeed();
 	});
 	</script>
+	-->
 </body>
 </html>

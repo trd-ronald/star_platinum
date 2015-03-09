@@ -101,6 +101,8 @@ $("label").click(function(){
 			$(".theborders").css("opacity", "1");
 			$(".jumptobar").css("opacity", "1");
 			$(".navigation").css("z-index", "0");
+			$("label").css("background","url('img/img1/button_menu.png')");
+
 			if(document.addEventListener){
 				//alert("you got IE9 or greater");
 			}else{
@@ -113,6 +115,8 @@ $("label").click(function(){
 			$(".theborders").css("opacity", "0");
 			$(".jumptobar").css("opacity", "0");
 			$(".navigation").css("z-index", "10");
+			$("label").css("background","url('img/img1/button_menu.png')");//change this to >>
+
 			if(document.addEventListener){
 				//alert("you got IE9 or greater");
 			}else{
