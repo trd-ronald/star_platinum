@@ -286,7 +286,6 @@
 
 	</div>
 
-
 	<script src="js/main.js"></script> <!-- Resource jQuery -->
 	<script src="js/scroll_function.js"></script> <!-- Resource jQuery -->
 	<script src="js/rss_plugin.js"></script> <!-- Resource jQuery -->

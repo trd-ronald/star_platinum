@@ -96,40 +96,28 @@ window.tempOpacity = {
 $("label").click(function(){
 	//console.log("checkboxed checked: "+$("#nav-trigger").prop("checked"));
 	if($("#nav-trigger").prop("checked")){
-		/*
-		$(".cd-o-top").css("opacity", tempOpacity.orange);
-		$(".cd-o-bottom").css("opacity", tempOpacity.orange);
-		$(".cd-o-left").css("opacity", tempOpacity.orange);
-		$(".cd-o-right").css("opacity", tempOpacity.orange);
-		$(".cd-b-top").css("opacity", tempOpacity.black);
-		$(".cd-b-bottom").css("opacity", tempOpacity.black);
-		$(".cd-b-left").css("opacity", tempOpacity.black);
-		$(".cd-b-right").css("opacity", tempOpacity.black);
-		$(".cd-white-mask").css("opacity", tempOpacity.white);
-		*/
+
 		var timner = setInterval(function () {
 			$(".theborders").css("opacity", "1");
 			$(".jumptobar").css("opacity", "1");
 			$(".navigation").css("z-index", "0");
+			if(document.addEventListener){
+				//alert("you got IE9 or greater");
+			}else{
+				$("label").css("right","0px");
+			}
 			clearInterval(timner);
 		}, 100);
 	}else{
-		
-		/*
-		$(".cd-o-top").css("opacity", "0");
-		$(".cd-o-bottom").css("opacity", "0");
-		$(".cd-o-left").css("opacity", "0");
-		$(".cd-o-right").css("opacity", "0");
-		$(".cd-b-top").css("opacity", "0");
-		$(".cd-b-bottom").css("opacity", "0");
-		$(".cd-b-left").css("opacity", "0");
-		$(".cd-b-right").css("opacity", "0");
-		$(".cd-white-mask").css("opacity", "0");
-		*/
 		var timner = setInterval(function () {
 			$(".theborders").css("opacity", "0");
 			$(".jumptobar").css("opacity", "0");
 			$(".navigation").css("z-index", "10");
+			if(document.addEventListener){
+				//alert("you got IE9 or greater");
+			}else{
+				$("label").css("right","300px");
+			}
 			clearInterval(timner);
 		}, 100);
 

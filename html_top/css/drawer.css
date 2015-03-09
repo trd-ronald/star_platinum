@@ -146,10 +146,6 @@ label[for="nav-trigger"] {
   right: 300px;
 }
 
-.nav-trigger:checked + .jumptobar {
-  right: 300px;
-}
-
 .nav-trigger:checked ~ .site-wrap {
   right: 100%;
   /*box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);*/

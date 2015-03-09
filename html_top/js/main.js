@@ -1,4 +1,42 @@
 $(function(){
+    if(  document.addEventListener  ){
+        //alert("you got IE9 or greater");
+    }else{
+        $(".theborders").css("display","none");
+        $(".cd-content-title").css("display","none");
+        $(".cd-notice").css("z-index","-50");
+/*
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='img/img1/top_background_1.jpg',
+sizingMethod='scale');
+*/
+        $(".cd-fixed-bg").eq(0).css({
+            "filter"    : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/img2/top_background_1.png',sizingMethod='scale')",
+        });
+        $(".cd-fixed-bg").eq(1).css({
+            "filter"    : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/img2/top_background_2.jpg',sizingMethod='scale')",
+        });
+        $(".cd-fixed-bg").eq(2).css({
+            "filter"    : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/img2/top_background_3.jpg',sizingMethod='scale')",
+        });
+        $(".cd-fixed-bg").eq(3).css({
+            "filter"    : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/img2/top_background_4.jpg',sizingMethod='scale')",
+        });
+        $(".cd-fixed-bg").eq(4).css({
+            "filter"    : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/img2/top_background_5.jpg',sizingMethod='scale')",
+        });
+        $(".cd-fixed-bg").eq(5).css({
+            "filter"    : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/img2/top_background_6.jpg',sizingMethod='scale')",
+        });
+        $(".cd-fixed-bg").eq(6).css({
+            "filter"    : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/img1/top_background_7.jpg',sizingMethod='scale')",
+        });
+        $(".cd-content").css("top", "30%");
+        $(".cd-rss-field-holder").css("top", "65px");
+
+    }//end if ie8
+    
+
 	$(".cd-fixed-bg").css("height",$(window).height()+"px");
 	window.divArr=[];
 	$(".jumpto").each(function(){
