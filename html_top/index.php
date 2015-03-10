@@ -13,14 +13,21 @@
 	<div class="site-wrap">
 		<div class="theborders">
 			<div class="cd-white-mask z-white"></div>
-			<div class="cd-o-top z-orange"></div>
-			<div class="cd-o-left z-orange"></div>
-			<div class="cd-o-right z-orange"></div>
-			<div class="cd-o-bottom z-orange"></div>
+			<div class="cd-o cd-o-top z-orange"></div>
+			<div class="cd-o cd-o-left z-orange"></div>
+			<div class="cd-o cd-o-right z-orange"></div>
+			<div class="cd-o cd-o-bottom z-orange"></div>
+			<!--
+			<div class="cd-b cd-o-top z-black"></div>
+			<div class="cd-b cd-o-left z-black"></div>
+			<div class="cd-b cd-o-right z-black"></div>
+			<div class="cd-b cd-o-bottom z-black"></div>
+			<!--
 			<div class="cd-b-top z-black"></div>
 			<div class="cd-b-left z-black"></div>
 			<div class="cd-b-right z-black"></div>
 			<div class="cd-b-bottom z-black"></div>
+			-->
 			<div class="cd-fixed-copyright z-black">© STAR PLATINUM INC. ALL RIGHTS RESERVED</div>
 		</div>
 

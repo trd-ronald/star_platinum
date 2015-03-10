@@ -32,51 +32,51 @@ a {
 }
 
 /* orange borders*/
+.cd-o{
+  background-color: #E9572E;
+  opacity: 0.7;
+  position: fixed;
+}
+
+.cd-b{
+  background-color: black;
+  opacity: 0.2;
+  position: fixed;
+}
+
 .cd-o-top{
   box-shadow: 0px 5px 10px #000;
-  transform: rotate(3deg);
-  top: -80px;
-  background-color: #DF4514;
-  opacity: 0.8;
-  position: fixed;
-  height: 130px;
+  transform: rotate(4deg);
+  top: -100px;
+  height: 180px;
   width: 110%;
 }
 
 .cd-o-bottom{
   box-shadow: 0px -5px 10px #000;
-  transform: rotate(3deg);
-  bottom: -80px;
+  transform: rotate(4deg);
+  bottom: -100px;
   right: 0;
-  background-color: #DF4514;
-  opacity: 0.8;
-  position: fixed;
-  height: 130px;
+  height: 180px;
   width: 110%;
 }
 
 .cd-o-left{
   box-shadow: 5px 0px 10px #000;
-  transform: rotate(5deg);
+  transform: rotate(6deg);
   bottom: 0px;
-  left: -80px;
-  background-color: #DF4514;
-  opacity: 0.8;
-  position: fixed;
+  left: -90px;
   height: 110%;
-  width: 130px;
+  width: 180px;
 }
 
 .cd-o-right{
   box-shadow: -5px 0px 10px #000;
-  transform: rotate(5deg);
+  transform: rotate(6deg);
   top: 0px;
-  right: -80px;
-  background-color: #DF4514;
-  opacity: 0.8;
-  position: fixed;
+  right: -90px;
   height: 110%;
-  width: 130px;
+  width: 180px;
 }
 
 /* black shades */
@@ -116,12 +116,12 @@ a {
 }
 
 .cd-white-mask{
-	top: 0px;
-	height: 100%;
+	top: 14.28571428571429%;
+	height: 71.42857142857143%;
 	width: 100%;
-	background-color: rgba(255,255,255,0.5);
-	opacity: 0.8;
-	position: fixed;
+	background-color: white;
+	opacity: 0.2;
+	position: absolute;
 }
 
 .cd-fixed-copyright{
@@ -218,8 +218,9 @@ a {
 	display: block;
 	height: 100%;
 	width: 400px;
+	/*background-color: green;*/
 	background-image: url("../img/img1/top_text.png");
-	background-position: center;
+	background-position: center bottom;
 	background-repeat: no-repeat;
 }
 
@@ -286,7 +287,7 @@ a {
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 20px;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(55,27,7,0.43);
 	position: relative;
 	color: white;
 }
