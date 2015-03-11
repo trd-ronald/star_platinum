@@ -40,11 +40,13 @@
 	</ul>
 	<div class="contact">
 		<img src="img/img1/contact_us.png" alt="コンタクト">
-		<p>〒810-0041<br>
-			 福岡県福岡市中央区大名2丁目1-43-507<br>
-			2-1-43 507, Daimyo,Chuo-ku,Fukuoka,810-0041
+		<p style="padding-top: 10px;padding-bottom: 10px;">〒812-0011<br>
+			 福岡県福岡市博多区博多駅前 4 丁目 36-29-401<br>
+			4-36-29-401, Hakataekimae, Hakata-ku ,Fukuoka-shi Fukuoka, 812-0011
 		</p>
-		<p>T:+81-92-406-3290<br>F:+81-92-406-3291<br>E:info@starplatinum.jp.net</p>
+		<span style="padding-right: 25px">T:+81-92-409-1691</span>
+		<span style="padding-right: 25px">F:+81-92-409-1692</span>
+		<span>E:info@starplatinum.jp.net</span>
 	</div>
 	<p class="mapIcon">
 		<a class="venobox vbox-item" data-type="iframe" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1661.8247261616675!2d130.39528983770597!3d33.588449813802036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541918672ab1493%3A0xfd082fa8bd8e0e33!2z56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSn5ZCN77yS5LiB55uu77yR4oiS77yU77yT!5e0!3m2!1sja!2sjp!4v1418190312031">

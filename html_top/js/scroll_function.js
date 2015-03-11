@@ -96,13 +96,13 @@ window.tempOpacity = {
 $("label").click(function(){
 	//console.log("checkboxed checked: "+$("#nav-trigger").prop("checked"));
 	if($("#nav-trigger").prop("checked")){
-
+		$("label").css("opacity", "0");
 		var timner = setInterval(function () {
 			$(".theborders").css("opacity", "1");
 			$(".jumptobar").css("opacity", "1");
 			$(".navigation").css("z-index", "0");
 			$("label").css("background","url('img/img1/button_menu.png')");
-
+			$("label").css("opacity", "1");
 			if(document.addEventListener){
 				//alert("you got IE9 or greater");
 			}else{
@@ -111,12 +111,13 @@ $("label").click(function(){
 			clearInterval(timner);
 		}, 100);
 	}else{
+		$("label").css("opacity", "0");
 		var timner = setInterval(function () {
 			$(".theborders").css("opacity", "0");
 			$(".jumptobar").css("opacity", "0");
 			$(".navigation").css("z-index", "10");
-			$("label").css("background","url('img/img1/button_menu.png')");//change this to >>
-
+			$("label").css("background","url('img/img1/return_menu.png') no-repeat right center");//change this to >>
+			$("label").css("opacity", "1");
 			if(document.addEventListener){
 				//alert("you got IE9 or greater");
 			}else{
