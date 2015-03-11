@@ -33,14 +33,28 @@ a {
 
 /* orange borders*/
 .cd-o{
-  background-color: #E9572E;
-  opacity: 0.7;
+  
+  background-color: hsla(9, 100%, 36%, 0.75);
+  /*opacity: 0.7;
+  
+  /*
+  background-color: rgba(230,52,21,0.5);
+  */
   position: fixed;
 }
 
 .cd-b{
-  background-color: black;
+  
+  background-color: #D51E09;
   opacity: 0.2;
+  
+  /*
+  background-color: rgba(213,30,9,0.7);
+  */
+  /*
+  background-color: rgba(0,0,0,0.3);
+  opacity: 0.8;
+  */
   position: fixed;
 }
 

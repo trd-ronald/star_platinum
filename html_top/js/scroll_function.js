@@ -115,7 +115,7 @@ $("label").click(function(){
 			$(".theborders").css("opacity", "0");
 			$(".jumptobar").css("opacity", "0");
 			$(".navigation").css("z-index", "10");
-			$("label").css("background","url('img/img1/button_menu.png')");//change this to >>
+			$("label").css("background","url('img/img1/return_menu.png') no-repeat right center");//change this to >>
 
 			if(document.addEventListener){
 				//alert("you got IE9 or greater");
@@ -127,3 +127,4 @@ $("label").click(function(){
 
 	}
 });
+

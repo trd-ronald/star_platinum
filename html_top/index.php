@@ -8,11 +8,13 @@
 			<li onclick="jumpto(divArr[4])" class="notactive">5</li>
 			<li onclick="jumpto(divArr[5])" class="notactive">6</li>
 			<li onclick="jumpto(divArr[6])" class="notactive">7</li>
-		</ul>
-	</div> 
+		</ul>  
+	</div>   
 	<div class="site-wrap">
 		<div class="theborders">
+			<!-- -->
 			<div class="cd-white-mask z-white"></div>
+			<!--
 			<div class="cd-o cd-o-top z-orange"></div>
 			<div class="cd-o cd-o-left z-orange"></div>
 			<div class="cd-o cd-o-right z-orange"></div>
@@ -31,7 +33,12 @@
 			<div class="cd-fixed-copyright z-black">© STAR PLATINUM INC. ALL RIGHTS RESERVED</div>
 		</div>
 
-		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg1.jpg)">
+		<div class="cd-fixed-bg jumpto" style="  background: 
+    linear-gradient(
+      hsla(13, 83%, 40%, 0.7), 
+      hsla(13, 83%, 40%, 0.7)
+    ),
+    url(img/img2/bg1.jpg);">
 			<div class="cd-notice z-content">
 				<div class="cd-notice-jp-text"></div>
 			</div>
