@@ -12,56 +12,32 @@
 	</div> 
 	<div class="site-wrap">
 		<div class="theborders">
-			<div class="cd-white-mask z-white"></div>
-			<div class="cd-o cd-o-top z-orange"></div>
-			<div class="cd-o cd-o-left z-orange"></div>
-			<div class="cd-o cd-o-right z-orange"></div>
-			<div class="cd-o cd-o-bottom z-orange"></div>
-			<!--
-			<div class="cd-b cd-o-top z-black"></div>
-			<div class="cd-b cd-o-left z-black"></div>
-			<div class="cd-b cd-o-right z-black"></div>
-			<div class="cd-b cd-o-bottom z-black"></div>
-			<!--
-			<div class="cd-b-top z-black"></div>
-			<div class="cd-b-left z-black"></div>
-			<div class="cd-b-right z-black"></div>
-			<div class="cd-b-bottom z-black"></div>
-			-->
 			<div class="cd-fixed-copyright z-black">© STAR PLATINUM INC. ALL RIGHTS RESERVED</div>
 		</div>
 
-		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg1.jpg)">
-			<div class="cd-notice z-content">
-				<div class="cd-notice-jp-text"></div>
-			</div>
-			<div class="cd-rss-field-holder z-content">
-				<div class="cd-rss-field">
-					<img src="img/img1/information.png" alt="info" />
-					<span>お知らせ</span>
-					<div class="cd-rss-field-item">
-						<p class="cd-rss-field-item-date">2015/12/21</p><p class="cd-rss-field-item-feed">あ末年始営業のお知らせ　テキストテキストテキストテキストテキストテキスキストテキストテキストキストテキストテキストキストテキストテキスト</p>
-					</div>
-					<div class="cd-rss-field-item">
-						<p class="cd-rss-field-item-date">2015/09/11</p><p class="cd-rss-field-item-feed">福岡で宅建資格取るなら日建学院粕屋校！受講生募集中！テキストテキストテキ</p>
-					</div>
-					<div class="cd-rss-field-item">
-						<p class="cd-rss-field-item-date">2015/01/01</p><p class="cd-rss-field-item-feed">制作実績更新しましたテキストテキストテキストテキストテキストテキストテキス</p>
-					</div>
-					<div class="cd-rss-field-item">
-						<p class="cd-rss-field-item-date">2015/05/20</p><p class="cd-rss-field-item-feed">制作実績更新しましたテキストテキストテキストテキストテキストテキストテキスト…</p>
-					</div>
-					<div class="cd-rss-field-item">
-						<p class="cd-rss-field-item-date">2015/01/01</p><p class="cd-rss-field-item-feed">iPPO fes.2015のご案内テキストテキストテキストテキストテキストテキストテキスト</p>
-					</div>
+		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img3/top_background_1.jpg)">
+			<div class="cd-rss-field">
+				<img src="img/img1/information.png" alt="info" />
+				<span>お知らせ</span>
+				<div class="cd-rss-field-item">
+					<p class="cd-rss-field-item-date">2015/12/21</p><p class="cd-rss-field-item-feed">あ末年始営業のお知らせ　テキストテキストテキストテキストテキストテキスキストテキストテキストキストテキストテキストキストテキストテキスト</p>
+				</div>
+				<div class="cd-rss-field-item">
+					<p class="cd-rss-field-item-date">2015/09/11</p><p class="cd-rss-field-item-feed">福岡で宅建資格取るなら日建学院粕屋校！受講生募集中！テキストテキストテキ</p>
+				</div>
+				<div class="cd-rss-field-item">
+					<p class="cd-rss-field-item-date">2015/01/01</p><p class="cd-rss-field-item-feed">制作実績更新しましたテキストテキストテキストテキストテキストテキストテキス</p>
+				</div>
+				<div class="cd-rss-field-item">
+					<p class="cd-rss-field-item-date">2015/05/20</p><p class="cd-rss-field-item-feed">制作実績更新しましたテキストテキストテキストテキストテキストテキストテキスト…</p>
+				</div>
+				<div class="cd-rss-field-item">
+					<p class="cd-rss-field-item-date">2015/01/01</p><p class="cd-rss-field-item-feed">iPPO fes.2015のご案内テキストテキストテキストテキストテキストテキストテキスト</p>
 				</div>
 			</div>
 		</div>
-		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg2.jpg)">
-			<div class="cd-content z-content">
-				<div class="cd-content-title">
-					<img src="img/img1/title_web.png" alt="web" />
-				</div>
+		<div class="cd-fixed-bg jumpto center-children" style="background-image: url(img/img3/top_background_2.jpg)">
+
 				<div class="cd-black-holder">
 					<div class="cd-record-list-holder">
 						<p class="cd-record-list-holder-block">
@@ -106,13 +82,9 @@
 				<div class="cd-about-us-extra z-content">
 					<!-- add images here -->
 				</div>
-			</div>
+		
 		</div>
-		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg3.jpg)">
-			<div class="cd-content z-content">
-				<div class="cd-content-title">
-					<img src="img/img1/title_graphic.png" alt="graphic" />
-				</div>
+		<div class="cd-fixed-bg jumpto center-children" style="background-image: url(img/img3/top_background_3.jpg)">
 				<div class="cd-black-holder">
 					<div class="cd-record-list-holder">
 						<p class="cd-record-list-holder-block">
@@ -151,15 +123,10 @@
 				<div class="cd-about-us-extra z-content">
 					<!-- add images here -->
 				</div>
-			</div>
 		</div>
-		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg4.jpg)">
-			<div class="cd-content z-content">
-				<div class="cd-content-title">
-					<img src="img/img1/title_education.png" alt="education" />
-				</div>
+		<div class="cd-fixed-bg jumpto center-children" style="background-image: url(img/img3/top_background_4.jpg)">
 				<div class="cd-black-holder">
-					<div class="cd-education-sentences">
+					<div class="cd-education-sentences tal">
 						<p>
 							■日建学院　粕屋校<br />
 							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -188,15 +155,10 @@
 						</a>
 					</div>
 				</div>
-			</div>
 		</div>
-		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/bg5.jpg)">
-			<div class="cd-content z-content">
-				<div class="cd-content-title">
-					<img src="img/img1/title_event.png" alt="event" />
-				</div>
+		<div class="cd-fixed-bg jumpto center-children" style="background-image: url(img/img3/top_background_5.jpg)">
 				<div class="cd-black-holder">
-					<p class="p-center">
+					<p class="p-center tal">
 						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
 						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
 						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
@@ -225,15 +187,10 @@
 						<img src="img/img1/banner_christmas_market.png" alt="banner_christmas_market"/>
 					</a>
 				</div>
-			</div>
 		</div>
-		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/top_background_6_nologo.jpg)">
-			<div class="cd-content z-content">
-				<div class="cd-content-title">
-					<img src="img/img1/title_management.png" alt="management" />
-				</div>
+		<div class="cd-fixed-bg jumpto center-children" style="background-image: url(img/img3/top_background_6.jpg)">
 				<div class="cd-black-holder">
-					<p class="p-center">
+					<p class="p-center tal">
 						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
 						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
 						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
@@ -249,12 +206,9 @@
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
-		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img2/top_background_7_nologo.jpg)">
-			<div class="cd-notice z-content">
-			</div>
-			<div class="cd-about-us z-content">
+		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img3/top_background_7.jpg)">
+			<div class="cd-about-us">
 				<div class="cd-about-us-block">
 					<p class="title">お問い合わせ</p>
 					<p>〒810-0041</p>
@@ -284,11 +238,12 @@
 					</a>
 					<img src="img/img1/banner_the_life.png" alt="the life" />
 				</div>
+				<div class="cd-about-us-extra z-content">
+					<img src="img/img1/banner_hakobune.png" alt="hakobune" />
+					<img src="img/img1/banner_nikken_2.png" alt="nikken2" />
+				</div>
 			</div>
-			<div class="cd-about-us-extra z-content">
-				<img src="img/img1/banner_hakobune.png" alt="hakobune" />
-				<img src="img/img1/banner_nikken_2.png" alt="nikken2" />
-			</div>
+
 		</div>
 
 	</div>

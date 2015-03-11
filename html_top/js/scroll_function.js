@@ -98,7 +98,6 @@ $("label").click(function(){
 	if($("#nav-trigger").prop("checked")){
 		$("label").css("opacity", "0");
 		var timner = setInterval(function () {
-			$(".theborders").css("opacity", "1");
 			$(".jumptobar").css("opacity", "1");
 			$(".navigation").css("z-index", "0");
 			$("label").css("background","url('img/img1/button_menu.png')");
@@ -113,7 +112,6 @@ $("label").click(function(){
 	}else{
 		$("label").css("opacity", "0");
 		var timner = setInterval(function () {
-			$(".theborders").css("opacity", "0");
 			$(".jumptobar").css("opacity", "0");
 			$(".navigation").css("z-index", "10");
 			$("label").css("background","url('img/img1/return_menu.png') no-repeat right center");//change this to >>
