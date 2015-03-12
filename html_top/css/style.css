@@ -44,18 +44,18 @@ a {
 /* content css */
 
 .cd-fixed-bg {
-width: 100%;
-height: 100%;
-position: relative;
-display: table;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: table;
 
 
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	text-align: center;
 
 }
-
+/*cannot use because of IE 9 and 8
 .center-children{ 
 	height: 100%;
 	width: 100%;
@@ -63,7 +63,7 @@ display: table;
 	flex-direction: column;
 	justify-content: center;
 }
-
+*/
 .jumptobar {
   height: 170px;
   width: 20px;
@@ -105,8 +105,7 @@ display: table;
 	color: #DF4514;
 	margin: 0 auto;
 	position: relative;
-	top: 52%;
-	margin-top: 32%;
+	text-align: left;
 }
 
 .cd-rss-field img {
@@ -152,14 +151,22 @@ display: table;
 .cd-black-holder {
 	display: block;
 	position: relative;
-	width: 70%;
+	width: 1000px;
 	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	color: white;
 	text-align: center;
 }
 
+.cd-about-us-extra {
+	position: relative;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.cd-about-us-extra img {
+	margin-right: 20px;
+}
 
 .cd-record-list-holder {
 	text-align: center;
@@ -185,7 +192,7 @@ display: table;
 .cd-education-sentences {
 	vertical-align: top;
 	display: inline-block;
-	width: 550px;
+	width: 60%;
 	height: 100%;
 	color: white;
 }
@@ -196,7 +203,6 @@ display: table;
 }
 
 .cd-education-links {
-	padding:  0 30px 0 30px;
 	vertical-align: top;
 	display: inline-block;
 	height: 100%;
@@ -219,7 +225,7 @@ display: table;
 .cd-about-us {
 	text-align: center;
 	color: white;
-	max-width: 80%;
+	width: 1000px;
 	margin: 0 auto;
 	display: block;
 }
@@ -233,15 +239,6 @@ p.title {
 	padding-bottom: 5px;
 	margin-bottom: 5px;
 }
-
-.cd-about-us{
-	width: 100%;
-	color: white;
-	position: relative;
-	top: 45%;
-	margin-top: 30%;
-}
-
 
 .cd-about-us-block {
 	text-align: left;
@@ -257,16 +254,6 @@ p.title {
 	display: block;
 }
 
-.cd-about-us-extra {
-	width: 100%;
-	display: block;
-	text-align: center;
-}
-
-.cd-about-us-extra img {
-	margin-right: 20px;
-}
-
 .p-center {
 	width: 60%;
 	margin: 0 auto;
@@ -275,7 +262,7 @@ p.title {
 }
 
 .cd-management {
-	width: 80%;
+	width: 900px;
 	margin: 0 auto;
 	vertical-align: top;
 	text-align: center;

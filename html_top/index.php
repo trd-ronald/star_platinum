@@ -11,10 +11,11 @@
 		</ul>
 	</div> 
 	<div class="site-wrap">
+		<!--
 		<div class="theborders">
 			<div class="cd-fixed-copyright z-black">© STAR PLATINUM INC. ALL RIGHTS RESERVED</div>
 		</div>
-
+		-->
 		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img3/top_background_1.jpg)">
 			<div class="cd-rss-field">
 				<img src="img/img1/information.png" alt="info" />
@@ -36,7 +37,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="cd-fixed-bg jumpto center-children" style="background-image: url(img/img3/top_background_2.jpg)">
+		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img3/top_background_2.jpg)">
 
 				<div class="cd-black-holder">
 					<div class="cd-record-list-holder">
@@ -84,7 +85,7 @@
 				</div>
 		
 		</div>
-		<div class="cd-fixed-bg jumpto center-children" style="background-image: url(img/img3/top_background_3.jpg)">
+		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img3/top_background_3.jpg)">
 				<div class="cd-black-holder">
 					<div class="cd-record-list-holder">
 						<p class="cd-record-list-holder-block">
@@ -124,7 +125,7 @@
 					<!-- add images here -->
 				</div>
 		</div>
-		<div class="cd-fixed-bg jumpto center-children" style="background-image: url(img/img3/top_background_4.jpg)">
+		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img3/top_background_4.jpg)">
 				<div class="cd-black-holder">
 					<div class="cd-education-sentences tal">
 						<p>
@@ -156,7 +157,7 @@
 					</div>
 				</div>
 		</div>
-		<div class="cd-fixed-bg jumpto center-children" style="background-image: url(img/img3/top_background_5.jpg)">
+		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img3/top_background_5.jpg)">
 				<div class="cd-black-holder">
 					<p class="p-center tal">
 						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -188,7 +189,7 @@
 					</a>
 				</div>
 		</div>
-		<div class="cd-fixed-bg jumpto center-children" style="background-image: url(img/img3/top_background_6.jpg)">
+		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img3/top_background_6.jpg)">
 				<div class="cd-black-holder">
 					<p class="p-center tal">
 						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
