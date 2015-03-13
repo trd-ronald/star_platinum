@@ -11,11 +11,6 @@
 		</ul>
 	</div> 
 	<div class="site-wrap">
-		<!--
-		<div class="theborders">
-			<div class="cd-fixed-copyright z-black">© STAR PLATINUM INC. ALL RIGHTS RESERVED</div>
-		</div>
-		-->
 		<div class="cd-fixed-bg jumpto" style="background-image: url(img/img3/top_background_1.jpg)">
 			<div class="cd-rss-field">
 				<img src="img/img1/information.png" alt="info" />
@@ -51,7 +46,9 @@
 							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
 							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
 						</p>
-						<img class="cd-record-list-holder-block" src="img/img1/botton_list.png" alt="botton_list" />
+						<a class="cd-record-list-holder-block" href="#">
+							<img src="img/img1/botton_list.png" alt="botton_list" />
+						</a>
 					</div>
 					<div class="tac">
 						<div class="cd-event-block">
@@ -93,10 +90,10 @@
 							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
 							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
 						</p>
-						<p class="cd-record-list-holder-block">
-							
-						</p>
-						<img class="cd-record-list-holder-block" src="img/img1/botton_list.png" alt="botton_list" />
+						<p class="cd-record-list-holder-block">　　　　　　　　　　　　　　　　</p> <!--Japanese spaces-->
+						<a class="cd-record-list-holder-block" href="#">
+							<img src="img/img1/botton_list.png" alt="botton_list" />
+						</a>
 					</div>
 					<div class="tac">
 						<div class="cd-event-block">
